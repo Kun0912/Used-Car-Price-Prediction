@@ -3,6 +3,7 @@ import jsonify
 import requests
 import pickle
 import numpy as np
+import pandas as pdd
 import sklearn
 from sklearn.preprocessing import StandardScaler
 app = Flask(__name__)
